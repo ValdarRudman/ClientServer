@@ -12,7 +12,7 @@ import javafx.collections.ObservableList;
  * @author valdar
  *
  */
-public class ObserverList implements Observer {
+public class ObserverList implements Observer 
 
 	//Observable list that will be updated
 	private ObservableList<String> list = null;
@@ -36,7 +36,7 @@ public class ObserverList implements Observer {
 		Platform.runLater(new Runnable() {
 			
 			@Override
-			public void run() {
+			public void run( {
 
 				File[] files = (File[])arg1;
 				
@@ -51,7 +51,7 @@ public class ObserverList implements Observer {
 					}
 				}
 			}
-		});
+		);
 		
 	}
 
